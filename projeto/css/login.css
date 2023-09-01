@@ -1,0 +1,140 @@
+*{ 
+    margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+   }
+   
+   html, body{ 
+   font-family: Arial, Helvetica, sans-serif; /*fontes*/
+   color: black; /*cor da fonte*/
+   font-size: 62.5%;
+   text-rendering: optimizeLegibility;
+   }
+   
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.fundo{
+    width: 100%; 
+    height: 100%;
+     position: relative;
+      background: black
+}
+
+.fundoimagem{
+    width: 144rem;
+     height: 102.4rem;
+      left: 0rem; 
+      top: 0rem;
+       position: absolute
+}
+
+
+.sombra{
+    width: 51.1rem;
+     height: 57.3rem;
+      left: 46.4rem;
+      
+      top: 4.7rem;
+       position: absolute;
+        background: white; 
+        box-shadow: 0rem 0.4rem 10rem rgba(0, 0, 0, 0.82);
+         border-radius: 3rem
+}
+
+.bemvindo{
+    left: 62.7rem;
+     top: 7.7rem;
+      position: absolute;
+       color: black;
+        font-size: 3.6rem;
+        
+          font-weight: 40rem; 
+          word-wrap: break-word
+}
+
+
+.retangulo1{
+    width: 29.6rem;
+     height: 4.5rem; 
+     left: 57.2rem;
+     
+     top: 19.3rem;
+      position: absolute;
+      
+      background: white;
+       border-radius: 8rem
+}
+
+
+.campo1{
+    width: 29.6rem;
+     height: 4.5rem; 
+     left: 57.2rem;
+      top: 19.3rem;
+       position: absolute;
+        background: #D9D9D9;
+         border-radius: 8rem;
+         padding: 1rem;
+}
+
+input{
+    border: none;
+}
+
+.campo2
+{
+    width: 29.6rem; 
+    height: 4.5rem;
+     left: 57.2rem;
+     
+     top: 27.7rem;
+      position: absolute;
+       background: #D9D9D9;
+        border-radius: 8rem;
+        padding: 1rem;
+}
+
+
+.login{
+    width: 29.6rem;
+     height: 5.5rem;
+     
+     left: 57.2rem;
+     
+      top: 42.5rem;
+       position: absolute;
+        background: #FF3434;
+         border-radius: 8rem
+}
+
+
+.logintxt
+{
+    left: 67.4rem;
+     top: 42.5rem;
+      position: absolute;
+       color: white;
+        font-size: 3.6rem; 
+       
+         font-weight: 40rem;
+          word-wrap: break-word
+}
+
+.esqueci{
+    left: 58.2rem;
+     top: 36.1rem;
+      position: absolute; 
+    color: #FF3434;
+     font-size: 1.5rem; 
+    
+     font-weight: 40rem; 
+     word-wrap: break-word
+}

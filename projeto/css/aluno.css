@@ -1,0 +1,141 @@
+*{ 
+    margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+   }
+   
+   html, body{ 
+   font-family: Arial, Helvetica, sans-serif; /*fontes*/
+   color: black; /*cor da fonte*/
+   font-size: 62.5%;
+   text-rendering: optimizeLegibility;
+   }
+   
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+.fundo{
+    width: 100%;
+     height: 100%;
+      position: relative;
+       background: white
+}
+
+.retangulo1{
+    width: 145.8rem; 
+    height: 14.4rem; 
+    left: -1.8rem;
+     top: 0rem; 
+     position: absolute;
+      background: #FF3434
+}
+
+.retangulo2{
+    width: 28.6rem; 
+    height: 102.4rem; 
+    left: 110.4rem;
+     top: 0rem;
+      position: absolute; 
+      background: #FF3434
+}
+
+
+.iconadd{
+    width: 8.4rem;
+     height: 8.4rem;
+     
+     left: 116.9rem; 
+     top: 76rem;
+      position: absolute
+}
+
+
+.iconlixo{
+    width: 8.4rem; 
+    height: 8.4rem; 
+    left: 116.9rem;
+     top: 19.3rem; 
+     position: absolute
+}
+
+
+.iconpasta{
+    width: 8.4rem; 
+    height: 8.4rem;
+     left: 116.9rem;
+      top: 37.3rem;
+       position: absolute
+}
+
+.iconpapel{
+    width: 8.4rem;
+     height: 8.4rem;
+     
+     left: 116.9rem; 
+     top: 55.3rem;
+      position: absolute
+}
+
+.atividades{
+    left: 40.3rem; 
+    top: 2.9rem;
+     position: absolute;
+      color: black;
+       font-size: 6.4rem;
+     
+        font-weight: 40rem;
+         word-wrap: break-word
+}
+
+.iconlista{
+    width: 28.5rem;
+     height: 32rem;
+      left: 8.6rem;
+       top: 20.3rem;
+        position: absolute
+}
+
+.descricao{
+    left: 42.9rem;
+     top: 30.6rem;
+      position: absolute;
+       color: #FF3434; 
+       font-size: 4.8rem;
+      
+         font-weight: 40rem;
+          word-wrap: break-word
+}
+
+.data{
+    left: 42.9rem;
+     top: 38.2rem;
+      position: absolute;
+     color: #FF3434;
+      font-size: 4.8rem;
+   
+        font-weight: 40rem;
+         word-wrap: break-word
+}
+
+.nota{
+    left: 42.9rem;
+     top: 45.8rem;
+      position: absolute;
+     color: #FF3434;
+     
+     font-size: 4.8rem;
+     
+       font-weight: 40rem;
+        word-wrap: break-word
+}
+
+.logo{
+    height:15rem;
+    margin-left: 2rem;
+}
